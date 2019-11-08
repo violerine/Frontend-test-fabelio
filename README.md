@@ -15,5 +15,8 @@ npm run serve
 npm run build
 ```
 
+# Run on github page 
+https://violerine.github.io/Frontend-test-fabelio/#/
 
-
+Notes : 
+There will be warning for Insecure content blocked , so you have to Load Unsafe Scripts/Unblock content in your browser.
