@@ -29,3 +29,13 @@ h6 {
 .container {
     margin-bottom: 40px;
 }
+
+.spinner-border {
+    width: 60px;
+    height: 60px;
+}
+
+.loading-spinner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

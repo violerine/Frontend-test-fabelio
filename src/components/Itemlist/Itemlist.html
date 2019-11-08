@@ -1,6 +1,11 @@
 
 <div>
-    <div class="container">
+    <div v-if="products.length == 0" class="text-center  text-secondary loading-spinner ">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <div v-else class="container">
         <div class="row">
             <div v-for="(product, index) in products"  class="col-md-6 col-sm-12 col-xs-12">
                 <div :key="index" class="card">
