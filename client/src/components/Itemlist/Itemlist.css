@@ -1,0 +1,27 @@
+.card-body {
+    text-align: left;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.delivery-time {
+    float: right;
+    margin-top: 30px;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+
+h6 {
+    color: orange;
+}
+
+.delivery-time {
+    color: rgb(50, 121, 226);
+}

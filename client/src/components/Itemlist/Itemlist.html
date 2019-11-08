@@ -1,0 +1,20 @@
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div v-for="(product, index) in products"  class="col-md-6 col-sm-12 col-xs-12">
+                <div :key="index" class="card">
+                    <div class="card-body">
+                        <div class="top">
+                            <h4><b>{{product.name}}</b></h4>
+                            <h6><b>Rp. {{product.price}}</b></h6>
+                        </div>
+                        <p class="card-text">{{product.description}}</p>
+                        <a href="#" class="card-link" v-for="style in product.furniture_style">{{style}}</a>
+                        <p class="delivery-time"><b><u>{{product.delivery_time}} days </u></b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

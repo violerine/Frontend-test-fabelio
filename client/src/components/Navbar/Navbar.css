@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1200px) {
+    .btn{
+        min-width: 350px;
+    }
+
+    .dropdown-item {
+        min-width: 350px;
+    }
+
+    .input-dropdown {
+        min-width: 350px;
+        border-bottom: 1px solid white;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .btn{
+        min-width: 550px;
+    }
+
+    .dropdown-item {
+        min-width: 550px;
+    }
+
+    .input-dropdown {
+        min-width: 550px;
+        border-bottom: 1px solid white;
+    }
+    
+}
+
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    /* min-width: 550px; */
+    max-width: 550px !important
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+}
+
+.dropdown-menu :hover {
+    background-image: none;
+    background-color: transparent !important;
+}
+
+.navbar {
+    background-color: #106DC8 !important
+}
+
+
+.form-control {
+    border-radius: 0;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    color: white;
+    border-right: none !important
+}
+
+::placeholder {
+    font-weight:700 ;
+    color:white;
+    opacity: 1; /* Firefox */
+}
+
+
+input[type="checkbox"]{
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+}

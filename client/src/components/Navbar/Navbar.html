@@ -1,0 +1,38 @@
+<div class="Navbar">
+    <nav class="navbar">
+            <div class="container">
+                <div class="input-group mb-3">
+                    <input @input="search" v-model="searchInput" type="text" class="form-control input-search" placeholder="Search Furniture" aria-label="Search" aria-describedby="basic-addon1">
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-6 col-m-6">
+                        <div class="mb-3 input-dropdown">
+                            <div class="input-group mb-1">
+                                <div class="input-group-prepend ">
+                                    <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Furniture Style<span><i class="fa fa-sort-down"></i></span></button>
+                                    <div  class="dropdown-menu">
+                                        <a v-for="style in furnitureStyle" class="dropdown-item">{{style}}<span><input @change="checkStyle(style)" type="checkbox" class="form-check-input" :id="style"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 col-m-6">
+                        <div class="mb-3 input-dropdown">
+                            <div class="input-group mb-1">
+                                <div class="input-group-prepend ">
+                                    <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Delivery Time<span><i class="fa fa-sort-down"></i></span></button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item"> Less than 1 week<span><input @change="checkDelivery(7)" type="checkbox" class="form-check-input" :id="deliveryTime"></span></a>
+                                        <a class="dropdown-item"> Less than 2 weeks<span><input @change="checkDelivery(14)" type="checkbox" class="form-check-input" :id="deliveryTime"></span></a>
+                                        <a class="dropdown-item"> Less than 1 month<span><input @change="checkDelivery(30)" type="checkbox" class="form-check-input" :id="deliveryTime"></span></a>
+                                        <a class="dropdown-item"> More than 1 month<span><input @change="checkDelivery(31)" type="checkbox" class="form-check-input" :id="deliveryTime"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+</div>
