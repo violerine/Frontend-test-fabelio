@@ -25,3 +25,7 @@ h6 {
 .delivery-time {
     color: rgb(50, 121, 226);
 }
+
+.container {
+    margin-bottom: 40px;
+}

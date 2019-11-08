@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Frontend-test-fabelio/precache-manifest.bc95c7b9791269f8f332a61eeec9aef4.js"
+  "/Frontend-test-fabelio/precache-manifest.3265b1e46f8c4fc5dd657ba8d3c5a494.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "client"});
