@@ -19,4 +19,5 @@ npm run build
 https://violerine.github.io/Frontend-test-fabelio/#/
 
 Notes : 
-There will be warning for Insecure content blocked , so you have to Load Unsafe Scripts/Unblock content in your browser.
+There will be warning for Insecure content blocked , so you have to Load Unsafe Scripts/Unblock content in your browser 
+for the loading to stop. 
